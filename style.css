@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 10px;
+}
+.column-flex{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.flex-box{
+    background-color: cornsilk;
+    flex: 1;
+    margin: 5px; 
+}
+.column-grow{
+    flex-grow: 2;
+}
+.flex-box-grow{
+    flex-grow: 4;
+}
